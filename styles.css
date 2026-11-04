@@ -2,23 +2,18 @@
 @media(max-width:1050px){.site-header{padding:0 3%;gap:12px}.brand{min-width:190px}.brand b,.brand strong{font-size:14px}.expert{display:none}.main-nav{gap:15px}.main-nav>a,.nav-item>a{font-size:10px}.category-strip{grid-template-columns:repeat(4,1fr)}.category-tile{height:130px}.product-grid{grid-template-columns:repeat(2,1fr)}.service-points{padding:22px 3%}.service-points>div{padding-left:4%}}
 @media(max-width:700px){.announcement{gap:8px;font-size:7px;letter-spacing:.05em}.announcement span:nth-of-type(n+3),.announcement i:nth-of-type(n+2){display:none}.site-header{height:70px;padding:0 18px}.brand{min-width:0}.brand-mark{font-size:34px}.brand b,.brand strong{font-size:12px}.brand small{font-size:6px}.search{display:none}.header-actions{gap:12px}.icon-button{font-size:19px}.mobile-menu{display:flex;font-size:22px}.main-nav{display:none;height:auto;position:absolute;top:102px;left:0;right:0;align-items:stretch;flex-direction:column;padding:18px 24px;box-shadow:0 15px 20px #0002}.main-nav.open{display:flex}.main-nav>a,.nav-item>a{font-size:13px;padding:7px 0}.nav-item{height:auto;display:block}.mega-menu{display:none!important}.hero{height:570px;min-height:0;padding:0 7%;background-position:60% center}.hero h1{font-size:48px}.hero-copy>p:not(.eyebrow){font-size:13px}.hero-actions{flex-wrap:wrap}.button{padding:13px 15px;font-size:9px}.hero-note{display:none}.category-strip{grid-template-columns:repeat(2,1fr);padding:8px;gap:6px}.category-tile{height:125px;padding:12px}.category-tile span{font-size:16px}.service-points{grid-template-columns:1fr 1fr;padding:18px 12px;gap:15px}.service-points>div{border:0;padding-left:8px}.service-points>div>span{font-size:21px}.service-points b{font-size:10px}.service-points small{font-size:8px}.section{padding:55px 6%}.section-heading h2,.section-top h2,.split-copy h2,.about-section h2,.advisor-section h2,.contact-section h2{font-size:35px}.experience-grid{grid-template-columns:1fr}.experience-card{min-height:260px}.section-top{align-items:flex-start;gap:15px;flex-direction:column}.filter-bar{display:grid;grid-template-columns:1fr 1fr}.filter-bar label{min-width:0}.product-grid{grid-template-columns:1fr 1fr;gap:14px}.product-image{height:175px}.product-info h3{font-size:15px}.product-info p{font-size:9px}.product-bottom{align-items:flex-start;gap:5px;flex-direction:column}.product-bottom button{width:100%}.dark-feature,.material-band{grid-template-columns:1fr}.dark-image{min-height:270px}.dark-copy,.material-band>div:first-child{padding:50px 8%}.category-feature-grid{grid-template-columns:1fr;padding:45px 6% 0}.feature-panel{min-height:320px}.split-section,.about-section,.contact-section,.advisor-section{grid-template-columns:1fr;gap:28px}.split-image,.about-photo{height:280px}.split-copy h2{font-size:39px}.material-photo{min-height:270px}.wellness-grid{grid-template-columns:1fr 1fr}.wellness-grid a:last-child{display:none}.wellness-grid a{height:190px}.brand-list{gap:20px 25px}.brand-list span{font-size:14px}.advisor-section{padding:55px 7%}.contact-section{padding:55px 7%}.form-row{grid-template-columns:1fr}.footer{padding:45px 6% 18px}.footer-top{flex-wrap:wrap;gap:20px}.footer-top>p{font-size:19px}.footer-columns{grid-template-columns:1fr 1fr;gap:28px 18px}.footer-bottom{flex-direction:column}.product-modal{grid-template-columns:1fr;max-height:90vh}.product-modal>img{height:230px;min-height:0}.modal-info{padding:25px}.modal-info h2{font-size:26px}}
 
-/* Revision 2 — preserve original visual language while refining catalogue UX */
-.hero-couple{background-image:url('assets/hero-couple-sauna.png') !important;background-position:center 48%;}
-.hero-couple .hero-shade{background:linear-gradient(90deg,rgba(12,12,10,.70),rgba(12,12,10,.28) 52%,rgba(12,12,10,.04));}
-.mega-saunas{min-width:min(1180px,94vw);grid-template-columns:repeat(7,minmax(125px,1fr));left:0;}
-.mega-menu small{display:block;color:#777;font-size:10px;line-height:1.45;margin-top:8px;}
-.filter-bar-expanded{flex-wrap:wrap;gap:12px;}
-.filter-bar-expanded label{min-width:125px;flex:1;}
-.catalog-note{font-size:12px;color:#777;margin:12px 0 22px;line-height:1.5;}
-.supplier-link{font-size:11px;letter-spacing:.02em;text-transform:uppercase;color:#655b4b;border-bottom:1px solid #a99b83;padding-bottom:3px;white-space:nowrap;}
-.product-bottom{gap:12px;align-items:center;}
-.product-bottom strong{font-size:15px;}
-.product-image img{object-fit:cover;}
-.brand-carousel-wrap{display:flex;align-items:center;gap:12px;max-width:1300px;margin:28px auto 0;padding:0 28px;}
-.brand-list{display:flex;gap:34px;overflow-x:auto;scroll-behavior:smooth;white-space:nowrap;scrollbar-width:none;flex:1;}
-.brand-list::-webkit-scrollbar{display:none;}
-.brand-list a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;min-width:150px;height:64px;border:1px solid rgba(120,110,95,.25);padding:12px 20px;letter-spacing:.13em;font-size:13px;font-weight:600;background:rgba(255,255,255,.55);}
-.brand-arrow{border:1px solid #b8b1a6;background:transparent;width:38px;height:38px;border-radius:50%;font-size:24px;cursor:pointer;color:inherit;flex:0 0 auto;}
-.supplier-link:hover,.brand-list a:hover{opacity:.72;}
-@media(max-width:900px){.mega-saunas{min-width:0;grid-template-columns:repeat(2,minmax(130px,1fr));}.filter-bar-expanded label{min-width:42%;}}
-@media(max-width:600px){.brand-carousel-wrap{padding:0 14px;}.brand-list a{min-width:130px;}.hero-couple{background-position:62% center;}}
+/* Prototype 2: category tiles and sauna capacity section based on the supplied visual references. */
+.category-strip{grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:12px 3.5%}
+.category-tile{height:clamp(220px,23vw,415px);padding:24px;background-position:center;background-size:cover}
+.category-tile span{font:600 clamp(17px,1.55vw,28px)/1.15 var(--sans);text-shadow:0 1px 5px #0008}
+.category-tile small,.category-tile b{display:none}
+.shop-by-size{padding:82px 4.5% 72px;background:#fff}
+.shop-by-size .section-heading{max-width:800px;margin-bottom:42px}
+.shop-by-size .section-heading h2{font:600 clamp(34px,3.2vw,58px)/1.1 var(--sans);letter-spacing:-.035em;margin-bottom:20px}
+.shop-by-size .section-heading>p:last-child{font:400 clamp(14px,1.2vw,20px)/1.5 var(--sans);color:#343434}
+.size-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.size-tile{height:clamp(280px,24vw,470px);background-image:linear-gradient(0deg,#080908c9 0%,#08090808 70%),var(--tile);background-position:center;background-size:cover;display:flex;align-items:flex-end;padding:24px;color:white;transition:filter .2s}
+.size-tile:hover{filter:brightness(1.08)}
+.size-tile span{font:600 clamp(17px,1.6vw,29px)/1.2 var(--sans);text-shadow:0 1px 5px #0009}
+@media(max-width:900px){.category-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.category-tile{height:260px}.size-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.size-tile{height:330px}}
+@media(max-width:700px){.category-strip{grid-template-columns:repeat(2,minmax(0,1fr));padding:8px;gap:6px}.category-tile{height:190px;padding:13px}.category-tile span{font-size:16px}.shop-by-size{padding:55px 6%}.shop-by-size .section-heading{margin-bottom:28px}.shop-by-size .section-heading h2{font-size:32px}.size-grid{gap:8px}.size-tile{height:205px;padding:13px}.size-tile span{font-size:16px}}

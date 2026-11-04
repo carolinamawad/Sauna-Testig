@@ -1,38 +1,22 @@
-# Sauna Heater Sanctuary — Website Prototype (Revision 2)
+# Sauna Heater Sanctuary — Prototype 2
 
-Premium residential sauna and wellness storefront prototype for GitHub Pages.
+This package contains the updated static storefront prototype.
 
-## Publish
-1. Upload the contents of this folder to the repository root.
-2. In GitHub: Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
-3. Save and wait for deployment.
+## Changes included in this version
+- Updated the category area to the eight categories shown in the supplied reference: Outdoor Saunas, Indoor Saunas, Traditional Saunas, Infrared Saunas, Cube Saunas, Barrel Saunas, Sauna Heaters and Cold Plunges.
+- Added the “Shop Saunas By Size” section with 2, 4, 6 and 8 person cards, following the supplied reference.
+- Added a capacity selector to the sauna filters and connected the size cards to it.
+- Updated the sauna navigation size links to the four capacities shown in the reference.
+- Kept the product catalog empty rather than adding unverified products, prices, specifications or inventory.
+- Retained the earlier Prototype 2 corrections: removed the specified sections/categories and the material filter; the brands area remains a carousel.
+
+## Image note
+The category and capacity card photographs in this prototype are crops from the two reference screenshots supplied for this revision. They are visual placeholders for layout review, not verified supplier product assets. Before launch, replace them with original product photographs from the approved supplier/reference websites (The Sauna Heater and Premium Saunas, as authorized by the project owner), checking that each image corresponds to the correct product/category and that its use is permitted.
 
 ## Files
-- `index.html` — page structure and navigation
-- `styles.css` — original visual system plus responsive catalogue refinements
-- `script.js` — filters, product cards, product details, demo cart and product data
-- `assets/hero-couple-sauna.png` — generated editorial homepage image
-- `assets/design-reference.png` — original visual reference
+- `index.html` — page structure and content
+- `styles.css` — responsive styling
+- `script.js` — interactions and empty, non-fictional product data
+- `assets/` — reference image crops used in the two new sections
 
-## Revision 2 changes
-- Preserved the approved visual direction, typography and color palette.
-- Homepage hero now uses a sauna couple image.
-- Rebuilt the Saunas mega menu: Shop by Type, Location, Style, Size, Dimensions, Material and Package.
-- Removed Sauna Kits from the location menu and removed Building Materials & Kits from the site navigation/content.
-- Removed Complete Package from sauna packages.
-- Updated infrared type taxonomy and added material options Thermo Spruce, Alder and Aspen.
-- Updated Sauna Heaters menu with Heater Controls, configuration, packages and HUUM / Harvia / Narvi / Saunum brand filters.
-- Added Sauna Controls, Safety Accessories, Heater Guards, Heat Shields, Stones and Chimney Kits.
-- Added supplier-referenced Hot Tub, Cold Plunge and Chiller products.
-- Moved Brands to a horizontally scrollable carousel below the main shopping sections.
-
-## Product-data and image caveat
-This is a GitHub prototype, not a live product feed. Product examples and technical details were transcribed from public supplier pages reviewed on 2026-11-03. Some catalog items are still missing full model-level details and some product-card photos are editorial category images rather than the manufacturer's exact product photography. Supplier source links are provided in each product detail. Before commercial launch, obtain supplier-approved image assets and confirm authorization, live SKU coverage, prices, stock, package contents, warranty, shipping, and technical specifications.
-
-Golden Designs' public all-products collection showed 207 products at the time reviewed. This revision includes a researched subset of identifiable models, not a verified complete 207-SKU import. Bathing Brands' catalog also needs a structured full export or supplier feed to guarantee all current SKUs are represented. Do not describe this prototype as a complete live catalog.
-
-## Interactions
-- Product filters and search operate on the local product dataset.
-- Product cards open specification modals with links to supplier listings.
-- The demo cart only accepts products with a displayed reference price; it does not process payments.
-- Contact and newsletter forms are demonstration forms and are not connected to email/CRM.
+Open `index.html` in a browser to review. This is a front-end prototype; checkout, customer accounts, contact form delivery and live product data are not connected.
