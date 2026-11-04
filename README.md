@@ -1,39 +1,38 @@
-# Sauna Heater Sanctuary — GitHub Pages Prototype
+# Sauna Heater Sanctuary — Website Prototype (Revision 2)
 
-A responsive, English-language front-end prototype for a premium residential sauna and wellness store.
+Premium residential sauna and wellness storefront prototype for GitHub Pages.
 
-## Included
-- Responsive homepage and navigation with desktop mega-menus and mobile menu
-- Sections for Saunas, Sauna Heaters, Hot Tubs, Cold Plunges, Sauna Accessories, Building Materials & Kits, Wellness & Lifestyle, Brands, About and Contact
-- Working demo product cards, product detail modal, category filters, search, cart and form interactions
-- Premium editorial visual direction: charcoal, warm white, natural wood imagery, serif headlines and clean sans-serif UI
-- GitHub Pages-ready static files (no build step required)
+## Publish
+1. Upload the contents of this folder to the repository root.
+2. In GitHub: Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+3. Save and wait for deployment.
 
-## Preview locally
-Open `index.html` in a browser. For a local server, run:
+## Files
+- `index.html` — page structure and navigation
+- `styles.css` — original visual system plus responsive catalogue refinements
+- `script.js` — filters, product cards, product details, demo cart and product data
+- `assets/hero-couple-sauna.png` — generated editorial homepage image
+- `assets/design-reference.png` — original visual reference
 
-```bash
-python3 -m http.server 8000
-```
+## Revision 2 changes
+- Preserved the approved visual direction, typography and color palette.
+- Homepage hero now uses a sauna couple image.
+- Rebuilt the Saunas mega menu: Shop by Type, Location, Style, Size, Dimensions, Material and Package.
+- Removed Sauna Kits from the location menu and removed Building Materials & Kits from the site navigation/content.
+- Removed Complete Package from sauna packages.
+- Updated infrared type taxonomy and added material options Thermo Spruce, Alder and Aspen.
+- Updated Sauna Heaters menu with Heater Controls, configuration, packages and HUUM / Harvia / Narvi / Saunum brand filters.
+- Added Sauna Controls, Safety Accessories, Heater Guards, Heat Shields, Stones and Chimney Kits.
+- Added supplier-referenced Hot Tub, Cold Plunge and Chiller products.
+- Moved Brands to a horizontally scrollable carousel below the main shopping sections.
 
-Then visit `http://localhost:8000`.
+## Product-data and image caveat
+This is a GitHub prototype, not a live product feed. Product examples and technical details were transcribed from public supplier pages reviewed on 2026-11-03. Some catalog items are still missing full model-level details and some product-card photos are editorial category images rather than the manufacturer's exact product photography. Supplier source links are provided in each product detail. Before commercial launch, obtain supplier-approved image assets and confirm authorization, live SKU coverage, prices, stock, package contents, warranty, shipping, and technical specifications.
 
-## Publish with GitHub Pages
-1. Create or open the public repository (suggested: `sauna-heater-sanctuary`).
-2. Upload the contents of this folder to the repository root. Keep `index.html`, `styles.css`, `script.js` and `assets/` at the root level.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Wait for GitHub Pages to publish the site.
+Golden Designs' public all-products collection showed 207 products at the time reviewed. This revision includes a researched subset of identifiable models, not a verified complete 207-SKU import. Bathing Brands' catalog also needs a structured full export or supplier feed to guarantee all current SKUs are represented. Do not describe this prototype as a complete live catalog.
 
-## Important — prototype, not a live store
-- Product names, brand references, prices, images and specifications are illustrative placeholders. They are not supplier-confirmed SKUs, offers, availability or authorized brand representations.
-- Do not publish placeholder product prices or claims as commercial information.
-- Images currently load from Unsplash image URLs and require an internet connection. Confirm image licensing/usage rights and replace with approved supplier or commissioned assets before commercial launch.
-- The included generated design reference is `assets/design-reference.png`; it is a visual reference, not a production page asset.
-- Cart is browser-local demo behavior. No checkout, payments, inventory, tax, shipping, order processing, customer accounts or CRM integration is connected.
-- Contact and newsletter forms show demo confirmations only. Connect them to a secure form endpoint, CRM or Shopify before launch.
-- Shipping, warranty, return, privacy and terms policies must be written and reviewed before launch.
-- Confirm supplier authorization, product feeds, package contents, technical compatibility, safety requirements, installation requirements, warranties and fulfillment terms for every listed item.
-
-## Recommended next step
-Use this prototype for a design/UX review with Lucas. Then replace the demo catalog with a normalized supplier-approved product dataset and implement the commercial store in Shopify.
+## Interactions
+- Product filters and search operate on the local product dataset.
+- Product cards open specification modals with links to supplier listings.
+- The demo cart only accepts products with a displayed reference price; it does not process payments.
+- Contact and newsletter forms are demonstration forms and are not connected to email/CRM.
